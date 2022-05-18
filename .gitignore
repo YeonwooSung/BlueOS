@@ -30,8 +30,3 @@
 *.exe
 *.out
 *.app
-
-
-# Targets dir
-targets/
-targets/*
