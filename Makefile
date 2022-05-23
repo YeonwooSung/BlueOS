@@ -1,3 +1,11 @@
+# version check
+VERSION = 0
+PATCHLEVEL = 0
+SUBLEVEL = 0
+EXTRAVERSION =
+NAME =
+
+
 kernel_source_files := $(shell find src/impl/kernel -name *.c)
 kernel_object_files := $(patsubst src/impl/kernel/%.c, build/kernel/%.o, $(kernel_source_files))
 
